@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京都交流準備サポート 🍵</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Zen Maru Gothic', sans-serif;
+            background-color: #F4F7F2; /* 薄い抹茶ミルク色 */
+            color: #2D3A22; /* 濃い茶色・抹茶 */
+        }
+        ruby {
+            ruby-position: over;
+        }
+        rt {
+            font-size: 0.65em;
+            color: #6D8C4F; /* ルビは少し明るい抹茶色 */
+            font-weight: 400;
+        }
+        .matcha-gradient {
+            background: linear-gradient(135deg, #4E6536 0%, #7A9460 100%);
+        }
+        .card-pattern {
+            background-image: radial-gradient(#d4dec9 1px, transparent 1px);
+            background-size: 20px 20px;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body class="antialiased pb-20">
+
+    <!-- Header -->
+    <header class="matcha-gradient text-[#FFFDF7] py-8 px-4 shadow-lg text-center relative overflow-hidden">
+        <div class="relative z-10 max-w-3xl mx-auto">
+            <h1 class="text-3xl md:text-4xl font-bold mb-3 flex items-center justify-center gap-2">
+                🍵 <ruby>京都交流<rt>きょうとこうりゅう</rt></ruby>サポート
+            </h1>
+            <p class="text-lg opacity-90"><ruby>教育実習<rt>きょういくじっしゅう</rt></ruby>のためのオンライン<ruby>教材<rt>きょうざい</rt></ruby></p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-3xl mx-auto px-4 mt-8">
+        
+        <!-- Introduction -->
+        <section class="bg-white rounded-xl shadow-sm border border-[#E0E8D8] p-6 mb-8 relative">
+            <div class="absolute top-0 left-0 w-2 h-full bg-[#7A9460] rounded-l-xl"></div>
+            <p class="text-lg leading-relaxed">
+                <ruby>京都<rt>きょうと</rt></ruby>のホストファミリーや<ruby>中学校<rt>ちゅうがっこう</rt></ruby>の<ruby>同級生<rt>どうきゅうせい</rt></ruby>との<ruby>交流<rt>こうりゅう</rt></ruby>に<ruby>向<rt>む</rt></ruby>けて、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>準備<rt>じゅんび</rt></ruby>をしていきましょう。<br><br>
+             
+            </p>
+        </section>
+
+        <!-- Situation 1 -->
+        <section class="card-pattern rounded-xl shadow-md border-t-4 border-[#4E6536] p-6 mb-8">
+            <h2 class="text-2xl font-bold text-[#4E6536] mb-2 flex items-center">
+                <span class="mr-2 text-3xl">🏡</span> ホストファミリーへの<ruby>挨拶<rt>あいさつ</rt></ruby>と<ruby>お土産<rt>みやげ</rt></ruby>
+            </h2>
+            <p class="text-[#5C7243] mb-6 border-b border-[#D4DEC9] pb-2"><ruby>到着<rt>とうちゃく</rt></ruby>した<ruby>時<rt>とき</rt></ruby>の<ruby>第一声<rt>だいいっせい</rt></ruby>と、<ruby>台湾<rt>たいわん</rt></ruby>のお<ruby>土産<rt>みやげ</rt></ruby>を<ruby>渡<rt>わた</rt></ruby>す<ruby>表現<rt>ひょうげん</rt></ruby>です。</p>
+
+            <div class="space-y-6">
+                <!-- Phrase 1 -->
+                <div class="bg-[#F4F7F2] p-5 rounded-lg border border-[#D4DEC9]">
+                    <p class="text-xl font-medium mb-3 leading-loose">
+                        「はじめまして、〇〇と<ruby>申<rt>もう</rt></ruby>します。<ruby>台湾<rt>たいわん</rt></ruby>から<ruby>参<rt>まい</rt></ruby>りました。<ruby>今日<rt>きょう</rt></ruby>からお<ruby>世話<rt>せわ</rt></ruby>になります。」
+                </p>
+                <button onclick="toggleZh('zh-1-1')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm">
+                    看中文
+                </button>
+                <p id="zh-1-1" class="zh-text hidden mt-3 text-[#5C7243] border-l-4 border-[#7A9460] pl-3 py-1 font-sans">
+                        初次見面，我叫〇〇。我從台灣來。從今天起請多關照。
+                    </p>
+                </div>
+
+                <!-- Phrase 2 -->
+                <div class="bg-[#F4F7F2] p-5 rounded-lg border border-[#D4DEC9]">
+                    <p class="text-xl font-medium mb-3 leading-loose">
+                        「こちらは<ruby>台湾<rt>たいわん</rt></ruby>の<ruby>お土産<rt>みやげ</rt></ruby>で、パイナップルケーキです。<ruby>甘<rt>あま</rt></ruby>くて<ruby>美味<rt>おい</rt></ruby>しいので、どうぞ<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がってください。」
+                </p>
+                <button onclick="toggleZh('zh-1-2')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm">
+                    看中文
+                </button>
+                <p id="zh-1-2" class="zh-text hidden mt-3 text-[#5C7243] border-l-4 border-[#7A9460] pl-3 py-1 font-sans">
+                        這是台灣的伴手禮，鳳梨酥。甜甜的很好吃，請品嚐。
+                    </p>
+                </div>
+
+                <!-- Expected Questions -->
+                <div class="mt-8 bg-white border-2 border-[#E0E8D8] rounded-lg p-5">
+                    <h3 class="font-bold text-[#4E6536] mb-4 flex items-center text-lg">
+                        <span class="mr-2">💡</span> 🇯🇵 <ruby>予想<rt>よそう</rt></ruby>される<ruby>質問<rt>しつもん</rt></ruby>
+                    </h3>
+                    <ul class="space-y-6">
+                        <li class="flex flex-col border-b border-dashed border-[#D4DEC9] pb-4">
+                            <p class="text-lg font-medium mb-3">「<ruby>飛行機<rt>ひこうき</rt></ruby>は<ruby>疲<rt>つか</rt></ruby>れませんでしたか？」<span class="text-sm text-gray-400 font-sans ml-2">(搭飛機累嗎？)</span></p>
+                            <div>
+                                <button onclick="toggleZh('ans-1-1')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm flex items-center gap-1">
+                                    <span>💬</span> 可以回給日本學生的模範回答x2
+                                </button>
+                                <div id="ans-1-1" class="zh-text hidden mt-3 bg-[#F4F7F2] p-4 rounded-lg border border-[#D4DEC9] space-y-4">
+                                    <div>
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">1.</span>「<ruby>少<rt>すこ</rt></ruby>し<ruby>疲<rt>つか</rt></ruby>れましたが、<ruby>京都<rt>きょうと</rt></ruby>に<ruby>来<rt>こ</rt></ruby>られて<ruby>嬉<rt>うれ</rt></ruby>しいです！」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（有一點累，但很高興能來到京都！）</p>
+                                    </div>
+                                    <div class="border-t border-[#E0E8D8] pt-3">
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">2.</span>「<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です！<ruby>機内<rt>きない</rt></ruby>でたくさん<ruby>寝<rt>ね</rt></ruby>ましたから。」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（沒問題！因為我在飛機上睡了很久。）</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="flex flex-col border-b border-dashed border-[#D4DEC9] pb-4">
+                            <p class="text-lg font-medium mb-3">「<ruby>日本<rt>にほん</rt></ruby>に<ruby>来<rt>く</rt></ruby>るのは<ruby>初<rt>はじ</rt></ruby>めてですか？」<span class="text-sm text-gray-400 font-sans ml-2">(你是第一次來日本嗎？)</span></p>
+                            <div>
+                                <button onclick="toggleZh('ans-1-2')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm flex items-center gap-1">
+                                    <span>💬</span> 可以回給日本學生的模範回答x2
+                                </button>
+                                <div id="ans-1-2" class="zh-text hidden mt-3 bg-[#F4F7F2] p-4 rounded-lg border border-[#D4DEC9] space-y-4">
+                                    <div>
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">1.</span>「はい、<ruby>初<rt>はじ</rt></ruby>めてです。ずっと<ruby>来<rt>き</rt></ruby>たいと<ruby>思<rt>おも</rt></ruby>っていました。」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（是的，第一次。我一直都很想來。）</p>
+                                    </div>
+                                    <div class="border-t border-[#E0E8D8] pt-3">
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">2.</span>「いいえ、２<ruby>回目<rt>かいめ</rt></ruby>です。でも、<ruby>京都<rt>きょうと</rt></ruby>は<ruby>初<rt>はじ</rt></ruby>めてです。」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（不是，是第二次。不過京都是第一次來。）</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Situation 2 -->
+        <section class="card-pattern rounded-xl shadow-md border-t-4 border-[#4E6536] p-6 mb-8">
+            <h2 class="text-2xl font-bold text-[#4E6536] mb-2 flex items-center">
+                <span class="mr-2 text-3xl">🗣️</span> ホストファミリーとの<ruby>雑談<rt>ざつだん</rt></ruby>
+            </h2>
+            <p class="text-[#5C7243] mb-6 border-b border-[#D4DEC9] pb-2"><ruby>食事<rt>しょくじ</rt></ruby>の<ruby>時<rt>とき</rt></ruby>に、<ruby>自分<rt>じぶん</rt></ruby>のことや<ruby>日本<rt>にほん</rt></ruby>の<ruby>好<rt>す</rt></ruby>きなものについて<ruby>話<rt>はな</rt></ruby>す<ruby>表現<rt>ひょうげん</rt></ruby>です。</p>
+
+            <div class="space-y-6">
+                <!-- Phrase 1 -->
+                <div class="bg-[#F4F7F2] p-5 rounded-lg border border-[#D4DEC9]">
+                    <p class="text-xl font-medium mb-3 leading-loose">
+                        「<ruby>私<rt>わたし</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>に<ruby>興味<rt>きょうみ</rt></ruby>があります。とくに、<ruby>京都<rt>きょうと</rt></ruby>の<ruby>歴史的<rt>れきしてき</rt></ruby>な<ruby>お寺<rt>てら</rt></ruby>や<ruby>神社<rt>じんじゃ</rt></ruby>を<ruby>見<rt>み</rt></ruby>てみたいです。」
+                </p>
+                <button onclick="toggleZh('zh-2-1')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm">
+                    看中文
+                </button>
+                <p id="zh-2-1" class="zh-text hidden mt-3 text-[#5C7243] border-l-4 border-[#7A9460] pl-3 py-1 font-sans">
+                        我對日本文化很感興趣。特別想看看京都歷史悠久的寺廟和神社。
+                    </p>
+                </div>
+
+                <!-- Phrase 2 -->
+                <div class="bg-[#F4F7F2] p-5 rounded-lg border border-[#D4DEC9]">
+                    <p class="text-xl font-medium mb-3 leading-loose">
+                        「<ruby>台湾<rt>たいわん</rt></ruby>の<ruby>夜市<rt>よいち</rt></ruby>に<ruby>行<rt>い</rt></ruby>ったことがありますか？もし<ruby>機会<rt>きかい</rt></ruby>があれば、ぜひ<ruby>遊<rt>あそ</rt></ruby>びに<ruby>来<rt>き</rt></ruby>てくださいね。」
+                </p>
+                <button onclick="toggleZh('zh-2-2')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm">
+                    看中文
+                </button>
+                <p id="zh-2-2" class="zh-text hidden mt-3 text-[#5C7243] border-l-4 border-[#7A9460] pl-3 py-1 font-sans">
+                        您去過台灣的夜市嗎？如果有機會，請一定要來玩喔。
+                    </p>
+                </div>
+
+                <!-- Phrase 3 -->
+                <div class="bg-[#F4F7F2] p-5 rounded-lg border border-[#D4DEC9]">
+                    <p class="text-xl font-medium mb-3 leading-loose">
+                        「<ruby>日本<rt>にほん</rt></ruby>の<ruby>家庭料理<rt>かていりょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べるのを<ruby>楽<rt>たの</rt></ruby>しみにしています。」
+                </p>
+                <button onclick="toggleZh('zh-2-3')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm">
+                    看中文
+                </button>
+                <p id="zh-2-3" class="zh-text hidden mt-3 text-[#5C7243] border-l-4 border-[#7A9460] pl-3 py-1 font-sans">
+                        我很期待品嚐日本的家庭料理。
+                    </p>
+                </div>
+
+                <!-- Expected Questions -->
+                <div class="mt-8 bg-white border-2 border-[#E0E8D8] rounded-lg p-5">
+                    <h3 class="font-bold text-[#4E6536] mb-4 flex items-center text-lg">
+                        <span class="mr-2">💡</span> 🇯🇵 <ruby>予想<rt>よそう</rt></ruby>される<ruby>質問<rt>しつもん</rt></ruby>
+                    </h3>
+                    <ul class="space-y-6">
+                        <li class="flex flex-col border-b border-dashed border-[#D4DEC9] pb-4">
+                            <p class="text-lg font-medium mb-3">「<ruby>日本<rt>にほん</rt></ruby>の<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>で<ruby>何<rt>なに</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか？」<span class="text-sm text-gray-400 font-sans ml-2">(你喜歡日本的什麼食物？)</span></p>
+                            <div>
+                                <button onclick="toggleZh('ans-2-1')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm flex items-center gap-1">
+                                    <span>💬</span> 可以回給日本學生的模範回答x2
+                                </button>
+                                <div id="ans-2-1" class="zh-text hidden mt-3 bg-[#F4F7F2] p-4 rounded-lg border border-[#D4DEC9] space-y-4">
+                                    <div>
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">1.</span>「お<ruby>寿司<rt>すし</rt></ruby>が<ruby>大好<rt>だいす</rt></ruby>きです！<ruby>特<rt>とく</rt></ruby>にサーモンが<ruby>好<rt>す</rt></ruby>きです。」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（我最喜歡壽司！特別是鮭魚。）</p>
+                                    </div>
+                                    <div class="border-t border-[#E0E8D8] pt-3">
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">2.</span>「ラーメンが<ruby>好<rt>す</rt></ruby>きです。おすすめの<ruby>店<rt>みせ</rt></ruby>はありますか？」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（我喜歡拉麵。有推薦的店嗎？）</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="flex flex-col border-b border-dashed border-[#D4DEC9] pb-4">
+                            <p class="text-lg font-medium mb-3">「<ruby>台湾<rt>たいわん</rt></ruby>ではどんな<ruby>流行<rt>りゅうこう</rt></ruby>がありますか？」<span class="text-sm text-gray-400 font-sans ml-2">(台灣現在流行什麼？)</span></p>
+                            <div>
+                                <button onclick="toggleZh('ans-2-2')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm flex items-center gap-1">
+                                    <span>💬</span> 可以回給日本學生的模範回答x2
+                                </button>
+                                <div id="ans-2-2" class="zh-text hidden mt-3 bg-[#F4F7F2] p-4 rounded-lg border border-[#D4DEC9] space-y-4">
+                                    <div>
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">1.</span>「<ruby>台湾<rt>たいわん</rt></ruby>では<ruby>今<rt>いま</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>のアニメがとても<ruby>人気<rt>にんき</rt></ruby>です。」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（台灣現在很流行日本的動漫。）</p>
+                                    </div>
+                                    <div class="border-t border-[#E0E8D8] pt-3">
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">2.</span>「<ruby>可愛<rt>かわい</rt></ruby>いカフェで<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>るのが<ruby>若者<rt>わかもの</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>で<ruby>流行<rt>はや</rt></ruby>っています。」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（在可愛的咖啡廳拍照在年輕人之間很流行。）</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Situation 3 -->
+        <section class="card-pattern rounded-xl shadow-md border-t-4 border-[#4E6536] p-6 mb-8">
+            <h2 class="text-2xl font-bold text-[#4E6536] mb-2 flex items-center">
+                <span class="mr-2 text-3xl">🏫</span> <ruby>同級生<rt>どうきゅうせい</rt></ruby>との<ruby>交流<rt>こうりゅう</rt></ruby>
+            </h2>
+            <p class="text-[#5C7243] mb-6 border-b border-[#D4DEC9] pb-2"><ruby>中学<rt>ちゅうがく</rt></ruby>3<ruby>年生<rt>ねんせい</rt></ruby>のみんなに<ruby>向<rt>む</rt></ruby>けた、<ruby>少<rt>すこ</rt></ruby>しカジュアルな<ruby>表現<rt>ひょうげん</rt></ruby>です。</p>
+
+            <div class="space-y-6">
+                <!-- Phrase 1 -->
+                <div class="bg-[#F4F7F2] p-5 rounded-lg border border-[#D4DEC9]">
+                    <p class="text-xl font-medium mb-3 leading-loose">
+                        「みんな、こんにちは！<ruby>台湾<rt>たいわん</rt></ruby>から<ruby>来<rt>き</rt></ruby>た〇〇です。<ruby>日本<rt>にほん</rt></ruby>のアニメが<ruby>大好<rt>だいす</rt></ruby>きで、ずっと<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>してきました。」
+                </p>
+                <button onclick="toggleZh('zh-3-1')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm">
+                    看中文
+                </button>
+                <p id="zh-3-1" class="zh-text hidden mt-3 text-[#5C7243] border-l-4 border-[#7A9460] pl-3 py-1 font-sans">
+                        大家好！我是從台灣來的〇〇。我非常喜歡日本動漫，一直都有在學日文。
+                    </p>
+                </div>
+
+                <!-- Phrase 2 -->
+                <div class="bg-[#F4F7F2] p-5 rounded-lg border border-[#D4DEC9]">
+                    <p class="text-xl font-medium mb-3 leading-loose">
+                        「<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>話<rt>はな</rt></ruby>したり、<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>ったりして、<ruby>仲良<rt>なかよ</rt></ruby>くなれたら<ruby>嬉<rt>うれ</rt></ruby>しいです。わからないことがあったら、<ruby>教<rt>おし</rt></ruby>えてね！」
+                </p>
+                <button onclick="toggleZh('zh-3-2')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm">
+                    看中文
+                </button>
+                <p id="zh-3-2" class="zh-text hidden mt-3 text-[#5C7243] border-l-4 border-[#7A9460] pl-3 py-1 font-sans">
+                        希望能和大家一起聊天、拍照，成為好朋友。如果有不懂的地方，請教教我喔！
+                    </p>
+                </div>
+
+                <!-- Phrase 3 -->
+                <div class="bg-[#F4F7F2] p-5 rounded-lg border border-[#D4DEC9]">
+                    <p class="text-xl font-medium mb-3 leading-loose">
+                        「<ruby>台湾<rt>たいわん</rt></ruby>のことについて<ruby>知<rt>し</rt></ruby>りたいことがあったら、いつでも<ruby>聞<rt>き</rt></ruby>いてね！」
+                </p>
+                <button onclick="toggleZh('zh-3-3')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm">
+                    看中文
+                </button>
+                <p id="zh-3-3" class="zh-text hidden mt-3 text-[#5C7243] border-l-4 border-[#7A9460] pl-3 py-1 font-sans">
+                        如果想知道關於台灣的事情，隨時都可以問我喔！
+                    </p>
+                </div>
+
+                <!-- Expected Questions -->
+                <div class="mt-8 bg-white border-2 border-[#E0E8D8] rounded-lg p-5">
+                    <h3 class="font-bold text-[#4E6536] mb-4 flex items-center text-lg">
+                        <span class="mr-2">💡</span> 🇯🇵 <ruby>予想<rt>よそう</rt></ruby>される<ruby>質問<rt>しつもん</rt></ruby>
+                    </h3>
+                    <ul class="space-y-6">
+                        <li class="flex flex-col border-b border-dashed border-[#D4DEC9] pb-4">
+                            <p class="text-lg font-medium mb-3">「どのアニメが<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>す</rt></ruby>き？」<span class="text-sm text-gray-400 font-sans ml-2">(你最喜歡哪部動漫？)</span></p>
+                            <div>
+                                <button onclick="toggleZh('ans-3-1')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm flex items-center gap-1">
+                                    <span>💬</span> 可以回給日本學生的模範回答x2
+                                </button>
+                                <div id="ans-3-1" class="zh-text hidden mt-3 bg-[#F4F7F2] p-4 rounded-lg border border-[#D4DEC9] space-y-4">
+                                    <div>
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">1.</span>「『<ruby>鬼滅<rt>きめつ</rt></ruby>の<ruby>刃<rt>やいば</rt></ruby>』が<ruby>一番<rt>いちばん</rt></ruby><ruby>好<rt>す</rt></ruby>きです！」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（我最喜歡《鬼滅之刃》！）</p>
+                                    </div>
+                                    <div class="border-t border-[#E0E8D8] pt-3">
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">2.</span>「<ruby>最近<rt>さいきん</rt></ruby>は『<ruby>呪術廻戦<rt>じゅじゅつかいせん</rt></ruby>』にハマっています。みんなは<ruby>何<rt>なに</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか？」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（最近很迷《咒術迴戰》。大家喜歡什麼呢？）</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="flex flex-col border-b border-dashed border-[#D4DEC9] pb-4">
+                            <p class="text-lg font-medium mb-3">「<ruby>台湾<rt>たいわん</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>ってどんな<ruby>感<rt>かん</rt></ruby>じ？<ruby>部活<rt>ぶかつ</rt></ruby>はあるの？」<span class="text-sm text-gray-400 font-sans ml-2">(台灣的學校是怎樣的？有社團嗎？)</span></p>
+                            <div>
+                                <button onclick="toggleZh('ans-3-2')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm flex items-center gap-1">
+                                    <span>💬</span> 可以回給日本學生的模範回答x2
+                                </button>
+                                <div id="ans-3-2" class="zh-text hidden mt-3 bg-[#F4F7F2] p-4 rounded-lg border border-[#D4DEC9] space-y-4">
+                                    <div>
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">1.</span>「<ruby>日本<rt>にほん</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じで<ruby>部活<rt>ぶかつ</rt></ruby>があります。<ruby>私<rt>わたし</rt></ruby>は〇〇<ruby>部<rt>ぶ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>っています。」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（和日本一樣有社團活動。我參加了〇〇社。）</p>
+                                    </div>
+                                    <div class="border-t border-[#E0E8D8] pt-3">
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">2.</span>「<ruby>台湾<rt>たいわん</rt></ruby>の<ruby>学校<rt>がっこう</rt></ruby>は<ruby>授業<rt>じゅぎょう</rt></ruby>が<ruby>長<rt>なが</rt></ruby>くて、<ruby>少<rt>すこ</rt></ruby>し<ruby>大変<rt>たいへん</rt></ruby>です（<ruby>笑<rt>わら</rt></ruby>）。」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（台灣的學校上課時間很長，有點辛苦(笑)。）</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="flex flex-col border-b border-dashed border-[#D4DEC9] pb-4">
+                            <p class="text-lg font-medium mb-3">「<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>してるの？」<span class="text-sm text-gray-400 font-sans ml-2">(你假日都在做什麼？)</span></p>
+                            <div>
+                                <button onclick="toggleZh('ans-3-3')" class="text-sm bg-[#E0E8D8] text-[#4E6536] px-4 py-1.5 rounded-full hover:bg-[#D4DEC9] transition focus:outline-none shadow-sm flex items-center gap-1">
+                                    <span>💬</span> 可以回給日本學生的模範回答x2
+                                </button>
+                                <div id="ans-3-3" class="zh-text hidden mt-3 bg-[#F4F7F2] p-4 rounded-lg border border-[#D4DEC9] space-y-4">
+                                    <div>
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">1.</span>「<ruby>友達<rt>ともだち</rt></ruby>とタピオカを<ruby>飲<rt>の</rt></ruby>みに<ruby>行<rt>い</rt></ruby>ったり、<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>をしたりします。」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（會和朋友去喝珍珠奶茶、去逛街買東西。）</p>
+                                    </div>
+                                    <div class="border-t border-[#E0E8D8] pt-3">
+                                        <p class="text-md text-[#2D3A22] leading-relaxed"><span class="font-bold text-[#7A9460] mr-1">2.</span>「<ruby>家<rt>いえ</rt></ruby>でゲームをしたり、YouTubeを<ruby>見<rt>み</rt></ruby>たりしてリラックスしています。」</p>
+                                        <p class="text-sm text-[#5C7243] font-sans mt-1">（在家打遊戲、看YouTube放鬆。）</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Toggle All Button -->
+    <button id="toggleAllBtn" onclick="toggleAllZh()" class="fixed bottom-6 right-6 matcha-gradient text-white font-bold py-3 px-6 rounded-full shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition duration-200 z-50 flex items-center gap-2">
+        <span>📖</span> 看全部中文
+    </button>
+
+    <script>
+        // 個別の中国語表示トグル
+        function toggleZh(id) {
+            const el = document.getElementById(id);
+            if (el.classList.contains('hidden')) {
+                el.classList.remove('hidden');
+                // 少しアニメーション効果（フェードイン風）をつける場合
+                el.style.opacity = 0;
+                setTimeout(() => {
+                    el.style.transition = 'opacity 0.3s ease';
+                    el.style.opacity = 1;
+                }, 10);
+            } else {
+                el.classList.add('hidden');
+            }
+        }
+
+        // 全ての中国語表示トグル
+        let isAllShown = false;
+        function toggleAllZh() {
+            const zhElements = document.querySelectorAll('.zh-text');
+            const btn = document.getElementById('toggleAllBtn');
+            
+            isAllShown = !isAllShown;
+            
+            zhElements.forEach(el => {
+                if (isAllShown) {
+                    el.classList.remove('hidden');
+                } else {
+                    el.classList.add('hidden');
+                }
+            });
+
+            if (isAllShown) {
+                btn.innerHTML = '<span>🙈</span> 隱藏中文';
+            } else {
+                btn.innerHTML = '<span>📖</span> 看全部中文';
+            }
+        }
+    </script>
+</body>
+</html>
